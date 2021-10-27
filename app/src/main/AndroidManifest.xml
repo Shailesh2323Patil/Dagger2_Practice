@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dagger2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dagger2">
+        <activity
+            android:name=".video_6.Video6_MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".video_5.Video5_MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".video_4.Video4_MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".video_3.Video3_MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".video_2.Video2_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".video_1.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
