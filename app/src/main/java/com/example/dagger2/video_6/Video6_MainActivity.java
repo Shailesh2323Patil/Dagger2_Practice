@@ -16,7 +16,6 @@ import javax.inject.Inject;
 * Providing interfaces with module in dagger 2
 *  */
 
-// Video6_MainActivity 123
 public class Video6_MainActivity extends AppCompatActivity {
 
     @Inject

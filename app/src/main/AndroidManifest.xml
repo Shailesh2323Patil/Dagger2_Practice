@@ -10,13 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dagger2">
         <activity
-            android:name=".video_6.Video6_MainActivity"
+            android:name=".video_8.part_2.Video8_MainActivity_Part_2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".video_8.part_1.Video8_MainActivity_Part_1"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".video_7.Video7_MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".video_6.Video6_MainActivity"
+            android:exported="true">
         </activity>
         <activity
             android:name=".video_5.Video5_MainActivity"
