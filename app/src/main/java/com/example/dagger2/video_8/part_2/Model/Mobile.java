@@ -11,8 +11,10 @@ import javax.inject.Inject;
  * So it is Directed to the both classes
  *
  *
- *  clock speed       clock speed
- *       |                |
+ *                                   Core
+ *                                    |
+ *  clock speed       clock speed     |
+ *       |                |------------
  *       |                |
  *  Snapdragon        MediaTek          Lithium          Cobalt
  *       |                |                |               |

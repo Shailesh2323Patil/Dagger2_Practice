@@ -3,20 +3,56 @@
     package="com.example.dagger2">
 
     <application
+        android:name=".video_15.Video15_MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dagger2">
+
         <activity
-            android:name=".video_8.part_2.Video8_MainActivity_Part_2"
+            android:name=".video_15.Video15_MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".video_14.Video14_MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".video_13.Video13_MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".video_12.Video12_MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".video_11.Video11_MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".video_10.Video10_MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".video_9.Video9_MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".video_8.part_2.Video8_MainActivity_Part_2"
+            android:exported="true">
         </activity>
         <activity
             android:name=".video_8.part_1.Video8_MainActivity_Part_1"
